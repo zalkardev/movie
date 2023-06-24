@@ -1,0 +1,117 @@
+#details{
+  box-shadow: 900px 0 0 400px rgba(0, 0, 0, 0.63) inset;
+  padding: 40px 0;
+  .details{
+    //background: linear-gradient(to bottom right, rgba(31.5, 10.5, 10.5, 1), rgba(31.5, 10.5, 10.5, 0.84));
+    display: flex;
+    .detail {
+      width: 78%;
+      i{
+      h4{
+        margin: 0 20px;
+        color: #6c5c5c;
+        padding: 20px;
+      }}
+      p{
+        font-weight: 500;
+        padding: 20px;
+        margin:0 20px;
+        color: #137978;
+        width: 50%;
+      }
+      & h1 {
+        color: white;
+        margin: 0 20px;
+      }
+    }
+    &--nav{
+      display: flex;
+      align-items: center;
+      h1{
+        font-weight: 600;
+        font-size: 26px;
+        margin: 0 10px;
+      }
+      h6{
+        font-weight: 400;
+        color: #e5d10d;
+        font-size: 18px;
+        margin: 0 20px;
+      }
+      h2{
+        font-weight: 600;
+        color: #cba110;
+        margin: 10px;
+      }
+      div{
+        display: flex;
+        margin: 0 10px;
+        gap: 20px;
+      }
+    }
+  &--circle{
+    &__title{
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4{
+        color: white;
+        font-weight: 700;
+        margin: 0 5px;
+        font-size: 25px;
+      }
+      .icon1{
+        background: darkblue;
+        color: white;
+        border-radius: 50%;
+        padding: 25px 25px;
+        font-size: 25px;
+      }.icon2{
+        background: darkblue;
+        color: white;
+        border-radius: 50%;
+        padding: 25px 25px;
+               font-size: 25px;
+
+      }.icon3{
+        background: darkblue;
+        color: white;
+        border-radius: 50%;
+        padding: 25px 25px;
+                      font-size: 25px;
+      }.icon4{
+        background: darkblue;
+        color: white;
+        border-radius: 50%;
+        padding: 25px 25px;
+                             font-size: 25px;
+      }
+      p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        }
+    }
+    background: #575454;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 6px solid yellowgreen;
+    margin: 0 20px;
+    h3{
+      color: white;
+      font-size: 18px;
+      sup{
+        font-size: 2px;
+      }
+    }
+  }
+  }
+}

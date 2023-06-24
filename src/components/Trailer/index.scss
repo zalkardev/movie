@@ -1,0 +1,9 @@
+#trailer{
+  padding: 60px 0;
+  .trailer{
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    gap: 20px
+  }
+}

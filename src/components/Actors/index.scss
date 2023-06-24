@@ -1,0 +1,16 @@
+#actors{
+  padding: 60px 0;
+  .actors{
+    //display: flex;
+    //align-items: flex-start;
+    //overflow-x: auto;
+    &--title{
+      margin: 0 20px;
+      text-align: center;
+      img{
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
